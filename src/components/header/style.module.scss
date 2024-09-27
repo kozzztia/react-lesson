@@ -1,0 +1,32 @@
+@import '../../styles/mixins.scss';
+
+
+.header {
+    width: 100%;
+    min-height: $header-height;
+    padding: $padding;
+    background: $background;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+
+    img {
+        height: 37px;
+    }
+
+    h2 {}
+
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: stretch;
+        gap: 20px;
+    }
+    li{
+        background: #E7EFD6;
+        
+    }
+}
