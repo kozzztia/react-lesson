@@ -1,0 +1,8 @@
+@import "../../styles/mixins.scss";
+
+.news{
+    background: $background;
+    padding: $padding;
+    min-height: 440px;
+    width :300px;
+}

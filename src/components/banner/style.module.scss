@@ -1,0 +1,9 @@
+@import "../../styles/mixins.scss";
+
+.banner{
+    padding :$padding;
+    background: $background;
+    width :100%;
+    min-height: 145px;
+    margin-bottom: 25px;
+}
