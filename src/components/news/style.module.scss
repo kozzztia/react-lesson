@@ -4,5 +4,35 @@
     background: $background;
     padding: $padding;
     min-height: 440px;
-    width :300px;
+    min-width : 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap : 25px;
+    h4{
+        font-weight: normal;
+        font-size: 20px;
+    }
+}
+.newsItem{
+    background: #BDCDF6;
+    width : 100%;
+    height : 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding :$padding;
+    p{
+        letter-spacing: 2px;
+    }
+    a{
+        text-decoration: none;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        &:hover{
+            text-shadow: 0 0 20px #000;
+        }
+    }
 }
